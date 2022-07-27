@@ -4,6 +4,10 @@ function Counter() {
 
   const [count, updateCount] = useState(0);
 
+  /* 
+   * Notice that, onClick, only the counter
+   * re-renders
+   */
   useEffect(() => {
     console.log('Counter Rendered!');
   })
